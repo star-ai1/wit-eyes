@@ -1,0 +1,28 @@
+{
+  "name": "wit-eyes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:Header": "vue serve ./src/components/Header/test.vue",
+    "test:Icon": "vue serve ./src/components/Icon/test.vue",
+    "test:Banner": "vue serve ./src/components/Banner/test.vue",
+    "test:Layout": "vue serve ./src/components/Layout/test.vue",
+    "test:Footer": "vue serve ./src/components/Footer/test.vue",
+    "test:Message": "vue serve ./src/components/Message/test.vue"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
